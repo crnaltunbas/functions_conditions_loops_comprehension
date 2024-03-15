@@ -92,3 +92,33 @@ add_element(1, 8)
 add_element(18, 20)
 
 add_element(19, 50)
+
+
+#  Ön Tanımlı Argümanlar/ Parametreler(Default Parameters / Arguments)
+#  Parametrele, fonksiyonların tanımlanması esnasında kullanılan ifadelerdir.
+#  Bu parametreler fonksiyonun çağrılması esnasında bir değer aldığında argüman olarak anılır.
+
+def divide(a, b):
+  print(a / b)
+
+divide(1, 2)
+
+def divide(a, b=1):
+  print(a / b)
+
+divide(1)
+
+def say_hi(string="Selam"):
+  print(string)
+  print("hi")
+  print("merhaba")
+
+say_hi()
+
+def say_hi(string="Selam"):
+  print(string)
+  print("hi")
+  print("merhaba")
+
+say_hi("Ceren")
+

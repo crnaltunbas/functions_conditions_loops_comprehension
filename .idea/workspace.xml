@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="Docstring oluşturuldu.">
+    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="Foksiyonların tanımlanması statement bölümünün tanımı yapıldı.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" afterDir="false" />
     </list>
@@ -110,13 +110,22 @@
       <option name="project" value="LOCAL" />
       <updated>1710540094182</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Foksiyonların tanımlanması statement bölümünün tanımı yapıldı.">
+      <option name="closed" value="true" />
+      <created>1710541100394</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1710541100394</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Dosya oluşturuldu." />
     <MESSAGE value="Fonksiyonlara giriş yapıldı. Fonksiyon okuryazarlığı anlatıldı." />
     <MESSAGE value="Docstring oluşturuldu." />
-    <option name="LAST_COMMIT_MESSAGE" value="Docstring oluşturuldu." />
+    <MESSAGE value="Foksiyonların tanımlanması statement bölümünün tanımı yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Foksiyonların tanımlanması statement bölümünün tanımı yapıldı." />
   </component>
 </project>
