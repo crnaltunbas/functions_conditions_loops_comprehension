@@ -7,7 +7,7 @@
 #  Fonksiyon okuryazarlığı
 
 print("a")
-?print
+
 #  Argümanlar fonksiyonalrın genel amacını biçimlendirmek üzere kullanılan alt görevcilerdir.
 print("a",  "b")
 
@@ -59,3 +59,36 @@ def summer(arg1, arg2):
 summer(1, 3)
 
 
+#  Fonksiyonların(Statement/Body Bölümü)
+#  Fonksiyonların ne görevi yapacğına hangi sırayla hangi şekilde yapılacağına karar verdiğimiz ve bunu pythona ifade
+#  ettiğimiz önemli olan bölümdür.
+#  def function_name(parameters/arguments): parametre /argüman her zaman olmayabilir bir fonksiyonda.
+#  statements(function body)
+
+def say_hi(string):
+  print(string)
+  print("hi")
+  print("merhaba")
+
+say_hi("Ceren")
+def multiplication(a, b):
+  c = a * b
+  print(c)
+
+multiplication(10, 9)
+
+
+# Girilen değerleri bir liste içine saklayacak fonksiyon yazalım.
+
+list_store = []
+
+def add_element(a, b):
+  c = a * b
+  list_store.append(c)
+  print(list_store)
+
+add_element(1, 8)
+
+add_element(18, 20)
+
+add_element(19, 50)
