@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="Ön tanımlı argümanlar anlatıldı.">
+    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="Ne zaman fonksiyon yazılır?">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -125,7 +126,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710542140298</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ne zaman fonksiyon yazılır?">
+      <option name="closed" value="true" />
+      <created>1710542424469</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710542424469</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -134,6 +143,7 @@
     <MESSAGE value="Docstring oluşturuldu." />
     <MESSAGE value="Foksiyonların tanımlanması statement bölümünün tanımı yapıldı." />
     <MESSAGE value="Ön tanımlı argümanlar anlatıldı." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ön tanımlı argümanlar anlatıldı." />
+    <MESSAGE value="Ne zaman fonksiyon yazılır?" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ne zaman fonksiyon yazılır?" />
   </component>
 </project>
