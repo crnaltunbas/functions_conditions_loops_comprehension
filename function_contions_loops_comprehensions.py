@@ -122,3 +122,13 @@ def say_hi(string="Selam"):
 
 say_hi("Ceren")
 
+#  Ne zaman fonksiyon yazma ihtiyacınız olur?
+
+#  Dry prensibi : kendini tekrar etme
+
+def calculate(varm, moisture, charge):
+  print((varm + moisture)/charge)
+
+calculate(98, 12, 78)
+
+
