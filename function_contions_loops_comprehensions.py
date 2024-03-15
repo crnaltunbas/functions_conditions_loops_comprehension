@@ -34,3 +34,28 @@ def summer(arg1, arg2):
 summer(7, 8)
 
 
+#  Docstring
+#  Bir fonksiyonda ürettiğimizde fonksiyonun ne işe yaradığını anlayabilmek için ortak bir dilde oluştu yazıdır.
+#  Docstring tarzında numpy için veya google için oluşturulmak isteniyorsa ayarlarda tools kısmından bu değiştirilebilir
+
+def summer(arg1, arg2):
+
+  """
+   Sum of two numbers
+  :param arg1:int, float
+
+  :param arg2:int, float
+
+  :return: int, float
+
+  :Examples: Burada örnek verebilirsiniz.
+
+  :Notes: Burada bu fonksiyonun nerede kullanıldığını yazabilir ihtiyaç duyduğunuz notları yazabilirsiniz
+
+  """
+
+  print(arg1 + arg2)
+
+summer(1, 3)
+
+
