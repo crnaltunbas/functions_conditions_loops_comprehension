@@ -1,4 +1,4 @@
-#  Fonksiyonlar, Koşullar, Döngüler, Comprehensions
+ #  Fonksiyonlar, Koşullar, Döngüler, Comprehensions
 
 
 #  Fonksiyonlar (Functions)
@@ -203,7 +203,31 @@ add_element(1, 9)
 
 #  Burada list_store global değişkendir. Ama c yerel etki alanında olduğundan local değişkendir.
 
+#  Koşullar (Conditions)
 
+#  True- False' u hatırlayalım
+
+1 == 1
+1 == 2
+
+#  if
+#  Sadece koşul sağlandığında eylem gerçekleşir.
+
+if 1 == 1:
+  print("something")
+
+number = 11
+if number == 10:
+  print("number is 10")
+
+number = 10
+number = 20
+
+def number_check(number):
+  if number == 10:
+    print("numbers is 10")
+
+number_check(12)
 
 
 
