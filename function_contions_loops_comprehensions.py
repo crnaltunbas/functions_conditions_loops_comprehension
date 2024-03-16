@@ -351,6 +351,7 @@ def alternating(string):
     for string_index in range(len(string)):
         # İndex çift ise büyük harfe çevir
         if string_index % 2 == 0:
+          # % mod alma işaretidir.
             new_string += string[string_index].upper()
         # İndex tek ise küçük harfe çevir.
         else:
@@ -384,6 +385,29 @@ while number < 5:
   number += 1
 
   # number 5' ten küçük olduğu sürece döngü devam eder.
+
+
+#  Enumerate : Otomatik counter / indexer ile for loop
+#  Gezilebilir bir yapı içerisinde gezerken aynı zamanda index bilgileerinide tutup gerekirse bu indexlere görede işlem
+#  yapmamızı sağlayan yapıdır.
+
+
+students = ["John", "Mark", "Vanessa", "Mariam"]
+for student in students:
+  print(student)
+
+A = []
+B = []
+for index, student in enumerate(students):
+  if index % 2 == 0:
+    A.append(student)
+  else:
+    B.append(student)
+
+print(A)
+print(B)
+
+
 
 
 
