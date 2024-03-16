@@ -443,4 +443,19 @@ def alternating_with_enumerate(string):
     print(new_string)
 alternating_with_enumerate("hi my name is john and i am learning python")
 
+# Zip
+
+# Ayrı listeleri tek bir liste içerisine her birisinde bulunan elemanları aynı sırada eşleyerek bir araya getirip
+ # herbirini tek eleman gibi gösterir.
+students = ["John", "Mark", "Vanessa", "Mariam"]
+
+departments = ["math", "static", "physics", "astronomy"]
+
+ages = [23, 30, 26, 22]
+
+list(zip(students,departments,ages))
+
+
+
+
 
