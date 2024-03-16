@@ -544,5 +544,21 @@ students_no = ["John", "Vanessa"]
 [student.lower() if student in students_no else student.upper() for student in students]
 
 
+# Dict Comprehension
+
+dictionary = {'a': 1,
+              'b': 2,
+              'c': 3,
+              'd': 4}
+dictionary.keys()
+dictionary.items()
+dictionary.values()
+
+#  Bu sözlük içerisinde her bir value- nun karesini almak istiyoruz.Ancak key-lere dokunmayacağız.
+
+{k: v **2 for (k, v) in dictionary.items()}
+{k.upper(): v for (k, v) in dictionary.items()}
+
+
 
 
