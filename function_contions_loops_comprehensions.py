@@ -560,5 +560,17 @@ dictionary.values()
 {k.upper(): v for (k, v) in dictionary.items()}
 
 
+# Uygulama- Mülakat sorusu Dict comprehensions
+
+# Amaç : çift sayıların karesi alınarak bir sözlüğe eklenmek istenmektedir.
+# Key-ler orjinal değerler value-lar ise değiştirilmiş değerler olacak.
 
 
+numbers = range(10)
+new_dict = {}
+
+for n in numbers:
+    if n % 2 == 0:
+       new_dict[n] = n **2
+print(new_dict)
+{n: n ** 2 for n in numbers if n % 2 ==0}

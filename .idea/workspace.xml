@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="List comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi.">
+    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="Dict comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" afterDir="false" />
     </list>
@@ -47,9 +47,6 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -254,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710621410548</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="Dict comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi.">
+      <option name="closed" value="true" />
+      <created>1710621825254</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1710621825254</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -279,6 +284,7 @@
     <MESSAGE value="Zip anlatıldı." />
     <MESSAGE value="Lampda &amp; map &amp; Filter &amp; Reduce" />
     <MESSAGE value="List comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi." />
-    <option name="LAST_COMMIT_MESSAGE" value="List comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi." />
+    <MESSAGE value="Dict comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi." />
+    <option name="LAST_COMMIT_MESSAGE" value="Dict comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi." />
   </component>
 </project>
