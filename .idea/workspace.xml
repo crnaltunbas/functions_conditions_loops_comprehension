@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="List &amp; Dict comprehensions uygulaması 2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" afterDir="false" />
-    </list>
+    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="List &amp; Dict comprehensions uygulaması 3" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -286,11 +283,18 @@
       <option name="project" value="LOCAL" />
       <updated>1710624867387</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="List &amp; Dict comprehensions uygulaması 3">
+      <option name="closed" value="true" />
+      <created>1710625844402</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1710625844402</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Dosya oluşturuldu." />
     <MESSAGE value="Fonksiyonlara giriş yapıldı. Fonksiyon okuryazarlığı anlatıldı." />
     <MESSAGE value="Docstring oluşturuldu." />
     <MESSAGE value="Foksiyonların tanımlanması statement bölümünün tanımı yapıldı." />
@@ -315,6 +319,7 @@
     <MESSAGE value="Dict comprehensions için mülakat sorusu çözüldü." />
     <MESSAGE value="List &amp; Dict comprehensions uygulaması 1" />
     <MESSAGE value="List &amp; Dict comprehensions uygulaması 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="List &amp; Dict comprehensions uygulaması 2" />
+    <MESSAGE value="List &amp; Dict comprehensions uygulaması 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="List &amp; Dict comprehensions uygulaması 3" />
   </component>
 </project>

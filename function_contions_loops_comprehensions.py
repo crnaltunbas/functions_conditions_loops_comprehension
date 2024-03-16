@@ -666,6 +666,13 @@ for col in num_cols:
   soz[col] = agg_list
 
 # kısa yol
- {col: agg_list for col in num_cols}
+{col: agg_list for col in num_cols}
 
+
+
+# ek olarak
+new_dict = {col: agg_list for col in num_cols}
+
+df[num_cols].head()
+df[num_cols].agg(new_dict)
 
