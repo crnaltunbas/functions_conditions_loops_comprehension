@@ -359,6 +359,33 @@ def alternating(string):
 alternating("hi my name is john and i am learning python")
 
 
+#  break & continue & while
+
+salaries = [1000, 2000, 3000, 4000, 5000]
+
+for salary in salaries:
+  if salary == 3000:
+    break
+    print(salary)
+
+    # istenen şart sağladığında döngü durur.(break)
+
+for salary in salaries:
+  if salary == 3000:
+    continue
+    print(salary)
+
+    # istenen şart sağlandığında diğer elemana geç.(continue)
+
+# while (dığı sürece)
+number = 1
+while number < 5:
+  print(number)
+  number += 1
+
+  # number 5' ten küçük olduğu sürece döngü devam eder.
+
+
 
 
 

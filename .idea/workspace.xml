@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="for döngüsü anlatıldı ve örnekler verildi.">
+    <list default="true" id="07af9212-6d30-43db-9460-23523360551e" name="Changes" comment="Önemli bir uygulama yapıldı.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" beforeDir="false" afterPath="$PROJECT_DIR$/function_contions_loops_comprehensions.py" afterDir="false" />
     </list>
@@ -190,7 +190,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710604566946</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Önemli bir uygulama yapıldı.">
+      <option name="closed" value="true" />
+      <created>1710611353942</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1710611353942</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -207,6 +215,7 @@
     <MESSAGE value="else ve elif ifadesi analatıldı." />
     <MESSAGE value="else ve elif ifadesi anlatıldı." />
     <MESSAGE value="for döngüsü anlatıldı ve örnekler verildi." />
-    <option name="LAST_COMMIT_MESSAGE" value="for döngüsü anlatıldı ve örnekler verildi." />
+    <MESSAGE value="Önemli bir uygulama yapıldı." />
+    <option name="LAST_COMMIT_MESSAGE" value="Önemli bir uygulama yapıldı." />
   </component>
 </project>
