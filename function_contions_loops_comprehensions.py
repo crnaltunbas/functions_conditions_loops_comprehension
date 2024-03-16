@@ -464,7 +464,7 @@ def summer(a, b):
   return a + b
 summer(1, 3) * 9
 
-new_sum = lamda a, b: a + b
+new_sum = lambda a, b: a + b
 new_sum(4, 5)
 
 # map
@@ -496,6 +496,53 @@ list(filter(lambda x:x % 2 ==0, list_store))
 from functools import reduce
 list_store = [1, 2, 3, 4]
 reduce(lambda a, b: a + b, list_store)
+
+
+
+
+# COMPREHENSİONS
+
+# List Comprehension
+
+salaries = [1000, 2000, 3000, 4000, 5000]
+
+def new_salary(salary):
+  return (salary * 20 / 100 + salary)
+
+
+null_list = []
+for salary in salaries:
+  null_list.append(new_salary(salary))
+
+null_list = []
+for salary in salaries:
+  if salary > 3000:
+    null_list.append(new_salary(salary))
+  else:
+    null_list.append(new_salary(salary * 2))
+print(null_list)
+
+[new_salary(salary * 2) if salary < 3000 else new_salary(salary) for salary in salaries]
+
+#  salaries listesindeki her her salary-i  iki ile çarpacağımızı düşünelim.
+[salaries * 2 for salary in salaries]
+
+[salaries * 2 for salary in salaries if salary < 3000]
+
+[new_salary(salaries * 2) if salary < 3000 else new_salary(salary * 0.2)for salary in salaries ]
+#  DİKKAT  COMPREHENSİONS BAŞLIĞINDAN İTİBAREN BU SATIRA KADAR  BİR HATA VAR NEYDEN KAYNAKLANDIĞINI ÇÖZEMEDİM !!!!
+
+# Eğer tek başına bir if kullanıyorsak bu en sağ tarafta olmalıdır. Eğer if ve else ifadesini birlikte kullanacaksak,
+# for ifadesi en sağda yer almalıdır.
+
+
+
+students = ["John", "Mark", "Vanessa", "Mariam"]
+
+students_no = ["John", "Vanessa"]
+
+[student.lower() if student in students_no else student.upper() for student in students]
+
 
 
 
