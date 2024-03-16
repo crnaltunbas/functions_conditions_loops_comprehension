@@ -256,10 +256,71 @@ def number_check(number):
 number_check(11)
 
 
+#  Döngüler (Loops)
+
+#  for loop
+students = ["John", "Mark", "Vanessa", "Mariam"]
+
+students[0]
+students[1]
+students[2]
+
+for student in students:
+  print(student)
 
 
 
+for student in students:
+  print(student.upper())
 
 
+salaries = [1000, 2000, 3000, 4000, 5000]
+
+for salary in salaries:
+  print(salary)
+
+
+
+for salary in salaries:
+  print(int((salary * 20/100 + salary)))
+
+
+def new_salary(salary, rate):
+  return int(salary * rate/100 + salary)
+
+new_salary(1500, 10)
+
+for salary in salaries:
+  print(new_salary(salary, 10))
+
+
+
+# maaşı 3000 tl olanlar ,3000 tl den küçük olanlar ve 3000 tl den büyük olanlara uygulanacak farklı zamlar sonucu
+ # maaşları hesaplayalım. Bu kısımda tekrarlayan uzun fonksiyonlar ile işlem yaptık.
+# Kendi yaptığım algoritma
+salaries = [1000, 2000, 3000, 4000, 5000]
+
+for salary in salaries:
+  if salary > 3000:
+     print(int((salary * 10/100) + salary))
+  elif salary == 3000:
+    print(int((salary * 20/100) + salary))
+  else :
+    print(int((salary * 30/100) + salary))
+
+# Aşağıdaki kısımda kısa yoldan fonsiyon üreterek kod yazdık.
+
+def new_salary(salary, rate):
+  return int(salary * rate/100 + salary)
+
+salaries = [1000, 2000, 3000, 4000, 5000]
+
+for salary in salaries:
+  if salary > 3000:
+     print(new_salary(salary, 10))
+  elif salary == 3000:
+    print(new_salary(salary, 20))
+  else :
+    print(new_salary(salary, 30))
 
 
