@@ -456,6 +456,46 @@ ages = [23, 30, 26, 22]
 list(zip(students,departments,ages))
 
 
+# lambda, map, filter, reduce
+
+#  lambda kullan at fonksiyondur. Tanımlama gerekmez.
+
+def summer(a, b):
+  return a + b
+summer(1, 3) * 9
+
+new_sum = lamda a, b: a + b
+new_sum(4, 5)
+
+# map
+# İçinde gezebileceğin nesne ve buna uygulayacağımız fonksiyonu verdiğimizde otamatik olarak verilen nesnenin bütün
+# elemanlarına uygular. for döngüsü yazmaktan kurtarır.
+
+
+salaries = [1000, 2000, 3000, 4000, 5000]
+
+def new_salary(x):
+  return x * 20/100 + x
+
+list(map(new_salary, salaries))
+
+
+# YA DA LAMPDAYI KULLANARAK
+
+list(map(lambda x: x *20 / 100 + x, salaries))
+
+
+# filter
+# Belirli bir koşulu sağlamak istemeyenleri ayırıyor. Sorgu bölümü gibi düşünülmelidir.
+
+list_store = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+list(filter(lambda x:x % 2 ==0, list_store))
+
+# Reduce
+# İteratif bir elemana istenilen işlemi uygulamak
+from functools import reduce
+list_store = [1, 2, 3, 4]
+reduce(lambda a, b: a + b, list_store)
 
 
 
