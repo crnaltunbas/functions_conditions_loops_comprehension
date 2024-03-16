@@ -47,6 +47,9 @@
       <option name="ENV_FILES" value="" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -275,7 +278,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710623965452</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="List &amp; Dict comprehensions uygulaması 2">
+      <option name="closed" value="true" />
+      <created>1710624867387</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1710624867387</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -303,6 +314,7 @@
     <MESSAGE value="Dict comprehensions çok önemlidir. Hakkında bolca bilgiden bahsedildi." />
     <MESSAGE value="Dict comprehensions için mülakat sorusu çözüldü." />
     <MESSAGE value="List &amp; Dict comprehensions uygulaması 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="List &amp; Dict comprehensions uygulaması 1" />
+    <MESSAGE value="List &amp; Dict comprehensions uygulaması 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="List &amp; Dict comprehensions uygulaması 2" />
   </component>
 </project>
