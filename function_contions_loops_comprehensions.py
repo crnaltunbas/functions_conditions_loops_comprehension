@@ -190,6 +190,21 @@ def all_calculation(varm, moisture, charge, a, p):
 all_calculation(1, 3, 5,19, 12)
 
 
+#  Local ve Global Değişkenler (Local & Global Variables)
+
+list_store = [1, 2]
+
+def add_element(a, b):
+  c = a * b
+  list_store.append(c)
+  print(list_store)
+
+add_element(1, 9)
+
+#  Burada list_store global değişkendir. Ama c yerel etki alanında olduğundan local değişkendir.
+
+
+
 
 
 
