@@ -229,6 +229,35 @@ def number_check(number):
 
 number_check(12)
 
+# else
+# if koşulu sağlanmadığında yapılacak eylemi gösterir.
+
+def number_check(number):
+  if number == 10:
+    print("numbers is 10")
+  else:
+    print("number is not 10")
+
+number_check(12)
+
+
+#  elif
+#  if koşulu sağlanmazsa başka bir şartı sağlamak için elif komutu kullanılır.elif -teki şart sağlanmazsa else- deki
+ #  eylemi gerçekleştirir.
+
+def number_check(number):
+  if number > 10:
+    print("greater than 10")
+  elif number < 10:
+    print("less than 10")
+  else:
+    print("equal to 10")
+
+number_check(11)
+
+
+
+
 
 
 
