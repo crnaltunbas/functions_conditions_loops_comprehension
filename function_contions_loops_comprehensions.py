@@ -324,3 +324,41 @@ for salary in salaries:
     print(new_salary(salary, 30))
 
 
+
+
+#  Uygulama Mülakat sorusu
+# Avrupada bir üniversitenin doktara departmanına alınacak öğrenciye sorulan mülakat sorusudur.
+# Amaç : Aşağıdaki şekilde string değiştiren fonksiyon yazmak istiyoruz.
+# Before : "hi my name is john and i am learning python"
+# After : "Hi mY NaMe iS JoHn aNd i aM LeArNiNg pYtHoN"
+# Aslında dikkatli baktığımızda indexleri çift olan elemanlar büyük olsun, tek olan elemanlar küçük olsun.
+
+# Bu örnekte range fonksiyonunu kullanacağız. Bizim yukarıdaki ifadeyi yapabilmek için stringin bütün indexleri boyunca
+# Gezip tekse küçültüp çiftse büyültmemiz gerekiyor.Range fonksiyonun kullanımını aşağıdaaki gibi açıklayabiliriz
+
+
+string = "hi my name is john and i am learning python"
+range(len(string))
+range(0, 43)
+
+for i in range(len(string)):
+  print(i)
+
+
+def alternating(string):
+    new_string = ""
+    # girilen string'in indexlerinde gez.
+    for string_index in range(len(string)):
+        # İndex çift ise büyük harfe çevir
+        if string_index % 2 == 0:
+            new_string += string[string_index].upper()
+        # İndex tek ise küçük harfe çevir.
+        else:
+          new_string += string[string_index].lower()
+    print(new_string)
+alternating("hi my name is john and i am learning python")
+
+
+
+
+
