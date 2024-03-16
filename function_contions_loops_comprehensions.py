@@ -574,3 +574,40 @@ for n in numbers:
        new_dict[n] = n **2
 print(new_dict)
 {n: n ** 2 for n in numbers if n % 2 ==0}
+
+
+
+# List & Dict Comprehension Uygulamalar
+
+# Bir veri setindeki değişken isimlerini değiştirmek
+
+# before
+# ['total', 'speeding', 'alcohol', 'not_distracted', 'no_previous', 'ins_losses', 'abbrev']
+
+# after
+#  ['TOTAL', 'SPEEDİNG', 'ALCOHOL', 'NOT_DİSTRACTED', 'NO_PREVİOUS', 'INS_LOSSES', 'ABBREV']
+
+#  aşağıda bir kütüphane import edilecek ama ana konumuz şu an o olmadığı için çok takılmadık.
+
+import seaborn as sns
+df = sns.load_dataset("car_crashes")
+df.columns
+
+for col in df.columns:
+  print(col.upper())
+
+A = []
+for col in df.columns:
+  A.append(col.upper())
+print(A)
+
+
+df.columns = A
+
+df = sns.load_dataset("car_crashes")
+
+df.columns = [col.upper() for col in df.columns]
+
+
+
+
